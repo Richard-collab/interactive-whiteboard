@@ -1,0 +1,1 @@
+{\n  \"name\": \"interactive-whiteboard\",\n  \"version\": \"1.0.0\",\n  \"dependencies\": {\n    \"react\": \"^18.0.0\",\n    \"react-flow-renderer\": \"^10.0.0\"\n  }\n}
