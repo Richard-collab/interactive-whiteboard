@@ -26,10 +26,33 @@ This project is designed to provide a collaborative whiteboard experience, where
    ```
 
 ### Usage
-To start the application, run:
+
+#### Development
+To start the development server with Hot Module Replacement (HMR):
 ```bash
-npm start
+npm run dev
 ```
+This will start the Vite development server at http://localhost:3000.
+
+#### Production Build
+To create an optimized production build:
+```bash
+npm run build
+```
+The build output will be in the `dist` directory.
+
+#### Preview Production Build
+To preview the production build locally:
+```bash
+npm run preview
+```
+
+### Technology Stack
+- **React** - UI framework
+- **TypeScript** - Type-safe JavaScript
+- **Vite** - Build tool with fast HMR
+- **Tailwind CSS** - Utility-first CSS framework
+- **React Flow** - Node-based graph visualization
 
 ### Contribution
 Contributions are welcome! Please submit a pull request with your changes.
